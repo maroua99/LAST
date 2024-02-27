@@ -1,10 +1,4 @@
-body{
-    background-image: url(pics/back.jpg);
-    background-size: cover; /* Adjust as needed */
-    background-position: center; /* Adjust as needed */
-    background-repeat: no-repeat;
-    height: 500px;
-}
+
 .section1acceuil{
     text-align: center;
     margin-top: 100px;
@@ -77,4 +71,14 @@ body{
 		border-radius: 0;
 		padding: 0;
 	}
+}
+
+.login{
+	width: 500px;
+	margin-left: 430px;
+	background-color:   rgba(14, 13, 13, 0.7); 
+	padding: 100px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	color: #f89219;
 }
