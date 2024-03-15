@@ -1,298 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Result</title>
-        <link rel="stylesheet" href="style.CSS">
-        <link rel="stylesheet" href="JS.js">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    </head>
-    <body>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-        crossorigin="anonymous"></script>
-    
-      <!-- Bootstrap links -->
 
-      <nav class="navbar navbar-expand-lg " style="border-bottom: solid black 1px; background-color: #fff;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="pics/logo.PNG" alt="Bootstrap" width="200" height="75">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result</title>
+  <link rel="stylesheet" href="style.CSS">
+  <link rel="stylesheet" href="JS.js">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap links -->
+
+  <nav class="navbar navbar-expand-lg " style="border-bottom: solid black 1px; background-color: #fff;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="pics/logo.PNG" alt="Bootstrap" width="200" height="75">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"
+          style="margin-right: 5px; width: 100px; border-color: #da6a30; background-color: #da6a30; "><img
+            src="pics/loop.PNG" width="20" height="20" alt=""></button>
+        <button class="btn btn-outline-success" type="submit"
+          style="margin-right: 5px; width: 250px;background-color: #3c6498;color: #fff; border-color: #3c6498;">Se
+          connecter</button>
+        <button class="btn btn-outline-success" type="submit"
+          style="margin-right: 5px; width: 250px; background-color: #3c6498; color: #fff; border-color: #3c6498;">S'inscrir</button>
+      </form>
+
+    </div>
+    </div>
+  </nav>
+
+
+  <!--  form     -->
+
+
+
+
+  <div class="container padding-bottom-3x mb-2">
+    <div class="row">
+      <!--  CATEGORIE     -->
+      <div class="col-lg-4" style="margin-top: 100px;">
+        <nav class="list-group">
+          <a class="list-group-item with-badge active" href="#"><i class="fa fa-tag"></i>Recherche par categorie<span
+              class="badge badge-secondary badge-pill"></span></a>
+          <a class="list-group-item" href="#"><i class="fa fa-user"></i>Communication industriel
+            <hr>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit" style="margin-right: 5px; width: 100px; border-color: #da6a30; background-color: #da6a30; "><img
-                src="pics/loop.PNG" width="20" height="20" alt=""></button>
-            <button class="btn btn-outline-success" type="submit" style="margin-right: 5px; width: 250px;background-color: #3c6498;color: #fff; border-color: #3c6498;">Se
-              connecter</button>
-            <button class="btn btn-outline-success" type="submit"
-              style="margin-right: 5px; width: 250px; background-color: #3c6498; color: #fff; border-color: #3c6498;" >S'inscrir</button>
-          </form>
-    
-        </div>
-        </div>
-      </nav>
+          <a class="list-group-item" href="#"><i class="fa fa-map"></i>PLC
+            <hr>
+          </a>
+          <a class="list-group-item" href="#"><i class="fa fa-map"></i>Programmation industriel
+            <hr>
+          </a>
+          <a class="list-group-item" href="#"><i class="fa fa-map"></i>SCADA</a>
+
+          <a class="list-group-item with-badge active" href="#"><i class="fa fa-tag"></i>Dernieres publication<span
+              class="badge badge-primary badge-pill"></span></a>
+
+          <div class="card p-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="user d-flex flex-row align-items-center">
+                <img src="pics/Profil-pic.jpg" width="30" class="user-img rounded-circle mr-2">
+                <span><small class="font-weight-bold text-warning" style="margin-left: 10px;">User name</small> <small
+                    class="font-weight-bold">Title </small></span>
+                <div class="action d-flex justify-content-between mt-2 align-items-center">
+
+                  <div class="reply px-4">
+                    <span class="dots"></span>
+                    <a style="color: #e68332;"><small>Reply <br></small></a>
+                    <span class="dots"></span>
+                    <a style="color: #e68332;"><small>View</small></a>
+                  </div>
+                </div>
+              </div>
 
 
-      <!--  form     -->
-    
-    
-     
-    
-      <div class="container padding-bottom-3x mb-2">
-        <div class="row">
-                <!--  CATEGORIE     -->
-            <div class="col-lg-4" style="margin-top: 100px;">
-                <nav class="list-group">
-                    <a class="list-group-item with-badge active" href="#"><i class="fa fa-tag"></i>Recherche par categorie<span class="badge badge-secondary badge-pill"></span></a>
-                    <a class="list-group-item" href="#"><i class="fa fa-user"></i>Communication industriel<hr>
-                    </a>
-                    <a class="list-group-item" href="#"><i class="fa fa-map"></i>PLC<hr></a>
-                    <a class="list-group-item" href="#"><i class="fa fa-map"></i>Programmation industriel<hr></a>
-                    <a class="list-group-item" href="#"><i class="fa fa-map"></i>SCADA</a>
-                    
-                <a class="list-group-item with-badge active" href="#"><i class="fa fa-tag"></i>Dernieres publication<span class="badge badge-primary badge-pill"></span></a>
-                   
-                <div class="card p-3">
-                        <div class="d-flex justify-content-between align-items-center">
-                      <div class="user d-flex flex-row align-items-center">
-                        <img src="pics/Profil-pic.jpg" width="30" class="user-img rounded-circle mr-2">
-                        <span><small class="font-weight-bold text-warning" style="margin-left: 10px;">User name</small> <small class="font-weight-bold">Title </small></span>  
-                      <div class="action d-flex justify-content-between mt-2 align-items-center">
 
-                        <div class="reply px-4">
-                            <span class="dots"></span>
-                            <a style="color: #e68332;"><small>Reply <br></small></a>
-                            <span class="dots"></span>
-                            <a style="color: #e68332;"><small>View</small></a>
+
+
+        </nav>
+
+      </div>
+      <div class="col-lg-8" style="padding: 0px; ">
+        <div class=" hidden-lg-up"></div>
+
+        <!-- resultat de recherche-->
+
+        <section style="margin-top: 0px;">
+          <div class="container my-5 py-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-12 col-lg-10" style="width: 100%;">
+                <div class="card text-dark">
+                  <div class="card-body p-4">
+                    <h3 class="mb-0">Resultat de recherche</h3>
+                    <p class="fw-light mb-4 pb-2">Nom de la Categorie</p>
+
+                    <div class="d-flex flex-start">
+                      <img class="rounded-circle shadow-1-strong me-3" src="pics/Profil-pic.jpg" alt="avatar" width="60"
+                        height="60" />
+                      <div>
+                        <h6 class="fw-bold mb-1">Nom utilisateur</h6>
+                        <div class="d-flex align-items-center mb-3">
+                          <p class="mb-0">
+                            Month day, year
+                          </p>
+                          <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                          <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                          <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
                         </div>
+                        <p class="mb-0">
+                          Lorem Ipsum is simply dummy text of the printing and typesetting
+                          industry. Lorem Ipsum has been the industry's standard dummy text ever
+                          since the 1500s, when an unknown printer took a galley of type and
+                          scrambled it.
+                        </p>
+                        <p><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                              fill="currentColor" class="bi bi-file-pdf" viewBox="0 0 16 16">
+                              <path
+                                d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1" />
+                              <path
+                                d="M4.603 12.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.6 11.6 0 0 0-1.997.406 11.3 11.3 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.244.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 5.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z" />
+                            </svg>Nom du fichier</a></p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Commenter
+                        </button>
+                        <!-- Dropdown comments-->
+
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            <div class="row g-0">
+                              <div class="col-sm-6 col-md-8"><img class="rounded-circle shadow-1-strong me-3"
+                                  src="pics/Profil-pic.jpg" alt="avatar" width="60" height="60" />
+                                <h6 class="fw-bold mb-1">Nom utilisateur</h6>
+                                <p class="mb-0">
+                                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                                  industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                  since the 1500s, when an unknown printer took a galley of type and
+                                  scrambled it.
+                                  <hr>
+                                </p>
+                              </div>
+                              <div class="col-6 col-md-4">
+                                <p class="mb-0">
+                                  Month day, year
+                                </p>
+                              </div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Commentez</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              <button type="button" class="btn btn-danger">Send</button>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end dropdown-->
                       </div>
                     </div>
-                    
-                  
+                  </div>
+
+                  <hr class="my-0" />
 
 
-                    
-                </nav>                   
 
-            </div>
-            <div class="col-lg-8" style="padding: 0px; ">
-                <div class=" hidden-lg-up"></div>
-               
-                <!-- resultat de recherche-->
+                  <div class="card-body p-4">
+                    <h3 class="mb-0">Resultat de recherche</h3>
+                    <p class="fw-light mb-4 pb-2">Nom de la Categorie</p>
 
-                <section style="margin-top: 0px;">
-                    <div class="container my-5 py-5">
-                      <div class="row d-flex justify-content-center">
-                        <div class="col-md-12 col-lg-10"  style="width: 100%;">
-                          <div class="card text-dark">
-                            <div class="card-body p-4">
-                              <h3 class="mb-0">Resultat de recherche</h3>
-                              <p class="fw-light mb-4 pb-2">Nom de la Categorie</p>
-                  
-                              <div class="d-flex flex-start">
-                                <img class="rounded-circle shadow-1-strong me-3"
-                                  src="pics/Profil-pic.jpg" alt="avatar" width="60"
-                                  height="60" />
-                                <div>
-                                  <h6 class="fw-bold mb-1">Nom utilisateur</h6>
-                                  <div class="d-flex align-items-center mb-3">
-                                    <p class="mb-0">
-                                      Month day, year
+                    <div class="d-flex flex-start">
+                      <img class="rounded-circle shadow-1-strong me-3" src="pics/Profil-pic.jpg" alt="avatar" width="60"
+                        height="60" />
+                      <div>
+                        <h6 class="fw-bold mb-1">Nom utilisateur</h6>
+                        <div class="d-flex align-items-center mb-3">
+                          <p class="mb-0">
+                            Month day, year
+                          </p>
+                          <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
+                          <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
+                          <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
+                        </div>
+                        <p class="mb-0">
+                          Lorem Ipsum is simply dummy text of the printing and typesetting
+                          industry. Lorem Ipsum has been the industry's standard dummy text ever
+                          since the 1500s, when an unknown printer took a galley of type and
+                          scrambled it.
+                        </p>
+                        <p><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                              fill="currentColor" class="bi bi-file-pdf" viewBox="0 0 16 16">
+                              <path
+                                d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1" />
+                              <path
+                                d="M4.603 12.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.6 11.6 0 0 0-1.997.406 11.3 11.3 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.244.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 5.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z" />
+                            </svg>Nom du fichier</a></p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Commenter
+                        </button>
+                        <!-- Dropdown comments-->
+
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body">
+                            <div class="row g-0">
+                              <div class="col-sm-6 col-md-8"><img class="rounded-circle shadow-1-strong me-3"
+                                  src="pics/Profil-pic.jpg" alt="avatar" width="60" height="60" />
+                                <h6 class="fw-bold mb-1">Nom utilisateur</h6>
+                                <p class="mb-0">
+                                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                                  industry. Lorem Ipsum has been the industry's standard dummy text ever
+                                  since the 1500s, when an unknown printer took a galley of type and
+                                  scrambled it.
+                                  <hr>
                                 </p>
-                                    <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                    <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                    <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
-                                  </div>
-                                  <p class="mb-0">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                    since the 1500s, when an unknown printer took a galley of type and
-                                    scrambled it.
-                                  </p>
-                                  <p><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-pdf" viewBox="0 0 16 16">
-                                    <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"/>
-                                    <path d="M4.603 12.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.6 11.6 0 0 0-1.997.406 11.3 11.3 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.244.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 5.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z"/>
-                                  </svg>Nom du fichier</a></p>
-                                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                      Commenter
-                                    </button>
-                                 <!-- Dropdown comments-->
+                              </div>
+                              <div class="col-6 col-md-4">
+                                <p class="mb-0">
+                                  Month day, year
+                                </p>
+                              </div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Commentez</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              <button type="button" class="btn btn-danger">Send</button>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end dropdown-->
+                      </div>
+                    </div>
+                  </div>
 
-                                  <div class="collapse" id="collapseExample">
-                                    <div class="card card-body">
-                                        <div class="row g-0">
-                                            <div class="col-sm-6 col-md-8"><img class="rounded-circle shadow-1-strong me-3"
-                                                src="pics/Profil-pic.jpg" alt="avatar" width="60"
-                                                height="60" />
-                                                <h6 class="fw-bold mb-1">Nom utilisateur</h6>
-                                                <p class="mb-0">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                    since the 1500s, when an unknown printer took a galley of type and
-                                                    scrambled it. <hr>
-                                                  </p>
-                                            </div>
-                                            <div class="col-6 col-md-4"> <p class="mb-0">
-                                                Month day, year
-                                          </p></div>
-                                          </div>
-                                          <div class="mb-3">
-                                            <label for="exampleFormControlTextarea1" class="form-label">Commentez</label>
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                            <button type="button" class="btn btn-danger">Send</button>
-                                          </div>
-                                         </div>
-                                  </div>
-                                 <!-- end dropdown-->
+
+
+                  <!-- Footer -->
+                  <footer class="footer-07" style="background-color: #fff; padding-top: 20px; border-top: solid 1px ;">
+                    <div class="container">
+                      <div class="row justify-content-center">
+                        <div class="col-md-12 text-center">
+                          <h2 class="footer-heading"><a href="#" class="logo"><img src="pics/logo.PNG "
+                                style="height: 70px;"></a></h2>
+                          <p class="menu">
+                            <a href="./Acceuil.html">Home</a>
+                            <a href="./policy.html">Terms and conditions</a>
+                            <a href="./Sign_in.html">Log in</a>
+                            <a href="./Sign_in.html">Sign in</a>
+                          </p>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact us</button>
+
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Leave us a feedback</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Nom Prenom :</label>
+                                      <input type="email" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Email :</label>
+                                      <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="message-text" class="col-form-label">Message:</label>
+                                      <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Send message</button>
                                 </div>
                               </div>
                             </div>
-                  
-                            <hr class="my-0" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mt-5">
+                        <div class="col-md-12 text-center">
+                          <p class="copyright" style="color: #d1cfcf;">made by Guesmia Maroua
+                          </p>
+                        </div>
+                      </div>
 
-                       
+                  </footer>
 
-                            <div class="card-body p-4">
-                                <h3 class="mb-0">Resultat de recherche</h3>
-                                <p class="fw-light mb-4 pb-2">Nom de la Categorie</p>
-                    
-                                <div class="d-flex flex-start">
-                                  <img class="rounded-circle shadow-1-strong me-3"
-                                    src="pics/Profil-pic.jpg" alt="avatar" width="60"
-                                    height="60" />
-                                  <div>
-                                    <h6 class="fw-bold mb-1">Nom utilisateur</h6>
-                                    <div class="d-flex align-items-center mb-3">
-                                      <p class="mb-0">
-                                        Month day, year
-                                  </p>
-                                      <a href="#!" class="link-muted"><i class="fas fa-pencil-alt ms-2"></i></a>
-                                      <a href="#!" class="link-muted"><i class="fas fa-redo-alt ms-2"></i></a>
-                                      <a href="#!" class="link-muted"><i class="fas fa-heart ms-2"></i></a>
-                                    </div>
-                                    <p class="mb-0">
-                                      Lorem Ipsum is simply dummy text of the printing and typesetting
-                                      industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                      since the 1500s, when an unknown printer took a galley of type and
-                                      scrambled it.
-                                    </p>
-                                    <p><a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-pdf" viewBox="0 0 16 16">
-                                      <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1"/>
-                                      <path d="M4.603 12.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.187-.012.395-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.065.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.6 11.6 0 0 0-1.997.406 11.3 11.3 0 0 1-1.021 1.51c-.29.35-.608.655-.926.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.244.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 5.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z"/>
-                                    </svg>Nom du fichier</a></p>
-                                      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                        Commenter
-                                      </button>
-                                   <!-- Dropdown comments-->
-  
-                                    <div class="collapse" id="collapseExample">
-                                      <div class="card card-body">
-                                          <div class="row g-0">
-                                              <div class="col-sm-6 col-md-8"><img class="rounded-circle shadow-1-strong me-3"
-                                                  src="pics/Profil-pic.jpg" alt="avatar" width="60"
-                                                  height="60" />
-                                                  <h6 class="fw-bold mb-1">Nom utilisateur</h6>
-                                                  <p class="mb-0">
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                      industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                      since the 1500s, when an unknown printer took a galley of type and
-                                                      scrambled it. <hr>
-                                                    </p>
-                                              </div>
-                                              <div class="col-6 col-md-4"> <p class="mb-0">
-                                                  Month day, year
-                                            </p></div>
-                                            </div>
-                                            <div class="mb-3">
-                                              <label for="exampleFormControlTextarea1" class="form-label">Commentez</label>
-                                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                              <button type="button" class="btn btn-danger">Send</button>
-                                            </div>
-                                           </div>
-                                    </div>
-                                   <!-- end dropdown-->
-                                  </div>
-                                </div>
-                              </div>
-                              
-                  
-                           
-       <!-- Footer -->
-       <footer class="footer-07"  style="background-color: #fff; padding-top: 20px; border-top: solid 1px ;" >
-        <div class="container">
-        <div class="row justify-content-center">
-        <div class="col-md-12 text-center">
-        <h2 class="footer-heading"><a href="#" class="logo"><img src="pics/logo.PNG " style="height: 70px;"></a></h2>
-        <p class="menu">
-        <a href="#">Home</a>
-        <a href="#">Terms and conditions</a>
-        <a href="#">Log in</a>
-        <a href="#">Sign in</a>
-        <a href="#">Blog</a>
-        </p>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Contact us</button>
-        
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Leave us a feedback</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <form>
-                  <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label" >Nom Prenom :</label>
-                    <input type="email" class="form-control" id="recipient-name">
-                  </div>
-                  <div class="mb-3">
-                    <label for="recipient-name" class="col-form-label">Email :</label>
-                    <input type="text" class="form-control" id="recipient-name">
-                  </div>
-                  <div class="mb-3">
-                    <label for="message-text" class="col-form-label">Message:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send message</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-        </div>
-        <div class="row mt-5">
-        <div class="col-md-12 text-center">
-        <p class="copyright" style="color: #d1cfcf;">made by Guesmia Maroua
-        </p>
-      </div>
-      </div>
-      
-      </footer>
-    
 </body>
+
 </html>
 
 <style>
-    body{
-        margin-top:20px;
-        background-image: url(pics/back.jpg);
-    }
+  body {
+    margin-top: 20px;
+    background-image: url(pics/back.jpg);
+  }
 
-.user-info-wrapper {
+  .user-info-wrapper {
     position: relative;
     width: 100%;
     margin-bottom: -1px;
@@ -302,9 +328,9 @@
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     overflow: hidden
-}
+  }
 
-.user-info-wrapper .user-cover {
+  .user-info-wrapper .user-cover {
     position: absolute;
     top: 0;
     left: 0;
@@ -314,15 +340,15 @@
     background-color: #f5f5f5;
     background-repeat: no-repeat;
     background-size: cover
-}
+  }
 
-.user-info-wrapper .user-cover .tooltip .tooltip-inner {
+  .user-info-wrapper .user-cover .tooltip .tooltip-inner {
     width: 230px;
     max-width: 100%;
     padding: 10px 15px
-}
+  }
 
-.user-info-wrapper .info-label {
+  .user-info-wrapper .info-label {
     display: block;
     position: absolute;
     top: 18px;
@@ -336,42 +362,42 @@
     line-height: 26px;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.18);
     cursor: pointer
-}
+  }
 
-.user-info-wrapper .info-label>i {
+  .user-info-wrapper .info-label>i {
     display: inline-block;
     margin-right: 3px;
     font-size: 1.2em;
     vertical-align: middle
-}
+  }
 
-.user-info-wrapper .user-info {
+  .user-info-wrapper .user-info {
     display: table;
     position: relative;
     width: 100%;
     padding: 0 18px;
     z-index: 5
-}
+  }
 
-.user-info-wrapper .user-info .user-avatar,
-.user-info-wrapper .user-info .user-data {
+  .user-info-wrapper .user-info .user-avatar,
+  .user-info-wrapper .user-info .user-data {
     display: table-cell;
     vertical-align: top
-}
+  }
 
-.user-info-wrapper .user-info .user-avatar {
+  .user-info-wrapper .user-info .user-avatar {
     position: relative;
     width: 115px
-}
+  }
 
-.user-info-wrapper .user-info .user-avatar>img {
+  .user-info-wrapper .user-info .user-avatar>img {
     display: block;
     width: 100%;
     border: 5px solid #fff;
     border-radius: 50%
-}
+  }
 
-.user-info-wrapper .user-info .user-avatar .edit-avatar {
+  .user-info-wrapper .user-info .user-avatar .edit-avatar {
     display: block;
     position: absolute;
     top: -2px;
@@ -388,102 +414,112 @@
     opacity: 0;
     text-align: center;
     text-decoration: none
-}
+  }
 
-.user-info-wrapper .user-info .user-avatar .edit-avatar::before {
+  .user-info-wrapper .user-info .user-avatar .edit-avatar::before {
     font-family: feather;
     font-size: 17px;
     content: '\e058'
-}
+  }
 
-.user-info-wrapper .user-info .user-avatar:hover .edit-avatar {
+  .user-info-wrapper .user-info .user-avatar:hover .edit-avatar {
     opacity: 1
-}
+  }
 
-.user-info-wrapper .user-info .user-data {
+  .user-info-wrapper .user-info .user-data {
     padding-top: 48px;
     padding-left: 12px
-}
+  }
 
-.user-info-wrapper .user-info .user-data h4 {
+  .user-info-wrapper .user-info .user-data h4 {
     margin-bottom: 2px
-}
+  }
 
-.user-info-wrapper .user-info .user-data span {
+  .user-info-wrapper .user-info .user-data span {
     display: block;
     color: #9da9b9;
     font-size: 13px
-}
+  }
 
-.user-info-wrapper+.list-group .list-group-item:first-child {
+  .user-info-wrapper+.list-group .list-group-item:first-child {
     border-radius: 0
-}
+  }
 
-.user-info-wrapper+.list-group .list-group-item:first-child {
+  .user-info-wrapper+.list-group .list-group-item:first-child {
     border-radius: 0;
-}
-.list-group-item:first-child {
+  }
+
+  .list-group-item:first-child {
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
-}
-.list-group-item:first-child {
+  }
+
+  .list-group-item:first-child {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
-}
-a.list-group-item {
+  }
+
+  a.list-group-item {
     padding-top: .87rem;
     padding-bottom: .87rem;
-}
-a.list-group-item, .list-group-item-action {
+  }
+
+  a.list-group-item,
+  .list-group-item-action {
     transition: all .25s;
     color: #606975;
     font-weight: 500;
-}
-.with-badge {
+  }
+
+  .with-badge {
     position: relative;
     padding-right: 3.3rem;
-}
-.list-group-item {
+  }
+
+  .list-group-item {
     border-color: #e1e7ec;
     background-color: #fff;
     text-decoration: none;
-}
-.list-group-item {
+  }
+
+  .list-group-item {
     position: relative;
     display: block;
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,0.125);
-}
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
 
-.badge.badge-primary {
+  .badge.badge-primary {
     background-color: #0da9ef;
-}
-.with-badge .badge {
+  }
+
+  .with-badge .badge {
     position: absolute;
     top: 50%;
     right: 1.15rem;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-.list-group-item i {
+  }
+
+  .list-group-item i {
     margin-top: -4px;
     margin-right: 8px;
     font-size: 1.1em;
-}
+  }
 
 
 
-.comment {
+  .comment {
     display: block;
     position: relative;
     margin-bottom: 30px;
     padding-left: 66px
-}
+  }
 
-.comment .comment-author-ava {
+  .comment .comment-author-ava {
     display: block;
     position: absolute;
     top: 0;
@@ -491,23 +527,23 @@ a.list-group-item, .list-group-item-action {
     width: 50px;
     border-radius: 50%;
     overflow: hidden
-}
+  }
 
-.comment .comment-author-ava>img {
+  .comment .comment-author-ava>img {
     display: block;
     width: 100%
-}
+  }
 
-.comment .comment-body {
+  .comment .comment-body {
     position: relative;
     padding: 24px;
     border: 1px solid #e1e7ec;
     border-radius: 7px;
     background-color: #fff
-}
+  }
 
-.comment .comment-body::after,
-.comment .comment-body::before {
+  .comment .comment-body::after,
+  .comment .comment-body::before {
     position: absolute;
     top: 12px;
     right: 100%;
@@ -516,52 +552,52 @@ a.list-group-item, .list-group-item-action {
     border: solid transparent;
     content: '';
     pointer-events: none
-}
+  }
 
-.comment .comment-body::after {
+  .comment .comment-body::after {
     border-width: 9px;
     border-color: transparent;
     border-right-color: #fff
-}
+  }
 
-.comment .comment-body::before {
+  .comment .comment-body::before {
     margin-top: -1px;
     border-width: 10px;
     border-color: transparent;
     border-right-color: #e1e7ec
-}
+  }
 
-.comment .comment-title {
+  .comment .comment-title {
     margin-bottom: 8px;
     color: #606975;
     font-size: 14px;
     font-weight: 500
-}
+  }
 
-.comment .comment-text {
+  .comment .comment-text {
     margin-bottom: 12px
-}
+  }
 
-.comment .comment-footer {
+  .comment .comment-footer {
     display: table;
     width: 100%
-}
+  }
 
-.comment .comment-footer>.column {
+  .comment .comment-footer>.column {
     display: table-cell;
     vertical-align: middle
-}
+  }
 
-.comment .comment-footer>.column:last-child {
+  .comment .comment-footer>.column:last-child {
     text-align: right
-}
+  }
 
-.comment .comment-meta {
+  .comment .comment-meta {
     color: #9da9b9;
     font-size: 13px
-}
+  }
 
-.comment .reply-link {
+  .comment .reply-link {
     transition: color .3s;
     color: #606975;
     font-size: 14px;
@@ -569,39 +605,40 @@ a.list-group-item, .list-group-item-action {
     letter-spacing: .07em;
     text-transform: uppercase;
     text-decoration: none
-}
+  }
 
-.comment .reply-link>i {
+  .comment .reply-link>i {
     display: inline-block;
     margin-top: -3px;
     margin-right: 4px;
     vertical-align: middle
-}
+  }
 
-.comment .reply-link:hover {
+  .comment .reply-link:hover {
     color: #0da9ef
-}
+  }
 
-.comment.comment-reply {
+  .comment.comment-reply {
     margin-top: 30px;
     margin-bottom: 0
-}
+  }
 
-@media (max-width: 576px) {
+  @media (max-width: 576px) {
     .comment {
-        padding-left: 0
+      padding-left: 0
     }
+
     .comment .comment-author-ava {
-        display: none
+      display: none
     }
+
     .comment .comment-body {
-        padding: 15px
+      padding: 15px
     }
+
     .comment .comment-body::before,
     .comment .comment-body::after {
-        display: none
+      display: none
     }
-}
-
-    
+  }
 </style>
